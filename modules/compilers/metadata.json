@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/lwelch/Bazel_Module_Test_3",
+    "maintainers": [
+        {
+            "email": "luke.andrew.welch@gmail.com",
+            "name": "Luke Welch"
+        }
+    ],
+    "versions": [
+        "1.0.0"
+    ],
+    "yanked_versions": {}
+}
