@@ -1,0 +1,16 @@
+''' Test MODULE.bazel file to see how it works with C Projects '''
+
+module(
+  name = "compilers",
+  version = "1.0.3",
+  compatibility_level = 1,
+  toolchains_to_register = [
+    "@compilers//toolchains/ti:ti_c66_cc_toolchain",
+    "@compilers//toolchains/ti:ti_arm_cc_toolchain",
+    ],
+)
+
+bazel_dep(
+  name = "platforms",
+  version = "0.0.4",
+)
